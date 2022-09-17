@@ -12,6 +12,8 @@ function About() {
             <p>adjfhadjhakjhfadfsa</p>
           <h2>What we learned</h2>
             <p>adsfkjhadls</p>
+          <h2>Next steps for LiveWell</h2>
+            <p>a;dskjfadfadfafasfasfa</p>
 
 
     </div>
