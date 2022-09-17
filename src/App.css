@@ -1,0 +1,20 @@
+.navigationBar{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+body{
+  background-color: rgb(53, 159, 195);
+}
+.navitem{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding:1rem;
+  border-radius: 0.5rem;
+  background-color: aquamarine;
+  text-decoration: none;
+}
+
+.navitem:hover{
+  background-color: rgb(91, 198, 162);
+}
