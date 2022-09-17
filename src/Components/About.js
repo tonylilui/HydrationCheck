@@ -2,7 +2,16 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <html>
+      <head>
+        <title>About</title>
+      </head>
+      <body>
+        <h1>Purpose</h1>
+      </body>
+    </html>
+
+
   )
 }
 
