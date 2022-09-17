@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Eat from "./Components/Eat";
 import Water from "./Components/Water";
 import {Route, Routes} from "react-router-dom";
 import Navbar from './Components/Navbar';

@@ -6,7 +6,6 @@ function Navbar() {
         <Link className = "navitem" to = "/">LifeChecker</Link>
         <Link className = "navitem" to = "/water">Water</Link>
         <Link className = "navitem" to = "/about">About </Link>
-        <Link className = "navitem" to = "/eat">Eat</Link>
     </div>
   )
 }
