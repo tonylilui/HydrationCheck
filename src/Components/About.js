@@ -2,20 +2,14 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-        <h1>About Livewell</h1>
-          <h2>Inspiration</h2>
-            <p>gygvyvtfvg</p>
-          <h2>Functionality</h2>
-            <p>jhdakjhfdakshf</p>
-          <h2>Challenges we faced</h2>
-            <p>adjfhadjhakjhfadfsa</p>
-          <h2>What we learned</h2>
-            <p>adsfkjhadls</p>
-          <h2>Next steps for LiveWell</h2>
-            <p>a;dskjfadfadfafasfasfa</p>
-
-
+    <div className = "about fade-in">
+        <span className = "about-span">
+        <h1>About Essence</h1>
+        <br />
+        <p>Essence is a website that promotes health and hydration</p>
+        <br />
+        <p>Please click our logo to initiate your hydration guider</p>
+        </span>
     </div>
   )
 }

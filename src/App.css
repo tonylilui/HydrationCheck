@@ -24,8 +24,31 @@ body{
   font-family: 'Courier New', Courier, monospace;
 
 }
-.background{
-  background-color:rgb(109, 236, 160);
+body{
+  background-image: url("./ocean.jpg");
+}
+.about{
+  text-align: center;
+  color: white;
+  padding: 5rem; 
+  margin-top: 2rem;
+  background-color: rgba(244,44,57,0.7);
 }
 
+.background{
+  text-align: center;
+  background-color: rgba(167, 96, 217, 0.7);
+}
 
+.fade-in{
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

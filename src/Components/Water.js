@@ -7,11 +7,11 @@ import ProgressBar from "./ProgressBar";
   }, 3000);
 };*/
 function setAlert() {
-  alert("Go Drink Some Water 💧💧💧💧💧💧💧");
+  alert("Go Drink Some Water Then Press OK 💧💧💧💧💧💧💧");
 }
 function Water() {
   const [counter, setCounter] = useState(0); //Set counter here
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(1800);
   const [waterStreak, setWaterStreak] = useState("");
   const [filled, setFilled] = useState(0);
   useEffect(
@@ -22,7 +22,7 @@ function Water() {
         setAlert();
         setWaterStreak(waterStreak + "💧");
         setCounter(counter + 1);
-        setSeconds(10);
+        setSeconds(1800);
       }
     },
     [seconds],
@@ -31,30 +31,21 @@ function Water() {
   );
   return (
     <div className="background">
-      Water
+      
       <h1>
-        Timer: {Math.floor(seconds / 60)} : {seconds % 60}
+        Time until next drink <br/><br/>💧{Math.floor(seconds / 60)} : {seconds % 60}
       </h1>
       <h1 className="watertitle">
         <br />
-        Water Title
+        Hydration is Key!
       </h1>
-      <p1>Streak Number: {counter}</p1>
+      <p1>Streak Number:: {counter}</p1>
       <p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <br />
 
        <h2>Progress: <ProgressBar value = {counter} max = {10}/></h2>
       </p>
-      <br />
-      <p>This is another paragraph. {waterStreak}</p>
     </div>
   );
 }

@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import essenceLogo from "../Essence.png"
 function Navbar() {
   return (
     <div className = "navigationBar">
-        <Link className = "navitem" to = "/">LifeChecker</Link>
-        <Link className = "navitem" to = "/water">Water</Link>
-        <Link className = "navitem" to = "/about">About </Link>
+        <Link className = "navitem" to = "/water"><img src = {essenceLogo} alt="" /></Link>
     </div>
   )
 }
