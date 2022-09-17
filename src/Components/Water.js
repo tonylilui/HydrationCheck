@@ -11,7 +11,7 @@ function setAlert(){
 }
 setAlert();
 var streak = 0;
-
+var counter = 0;
 function Water() {
   
 const [seconds, setSeconds] = useState(10);
@@ -21,12 +21,13 @@ const [seconds, setSeconds] = useState(10);
     }
     else{
       setAlert();
+      counter++;
     }
   },[seconds])
   return (
     <div className='background'>
       Water
-      <h1>Timer: {Math.floor(seconds / 60)} :: {seconds % 60}</h1>
+      <h1>Timer: {Math.floor(seconds / 60)} : {seconds % 60}</h1>
       <h1 className='watertitle'>
         <br/>
         Water Title
@@ -35,11 +36,7 @@ const [seconds, setSeconds] = useState(10);
       Streak Number: {streak}  
       </p1>
      
-      {/* var counter = 0;
-      while(counter!=100){
-        counter++;
-        
-      } */}
+
       <p>
           <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
           Progress bar

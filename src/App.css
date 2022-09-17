@@ -18,3 +18,12 @@ body{
 .navitem:hover{
   background-color: rgb(91, 198, 162);
 }
+
+.watertitle{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.background{
+  background-color:rgb(109, 236, 160);
+}
