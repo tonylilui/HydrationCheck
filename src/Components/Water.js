@@ -17,7 +17,7 @@ const [seconds, setSeconds] = useState(10);
       setTimeout(() => setSeconds(seconds - 1), 1000)
     }
     else{
-      alert("Go Drink Some Water")
+      alert("Go Drink Some Water 💧💧💧💧💧💧💧")
     }
   },[seconds])
   return (
