@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
   }, 3000);
 };*/
 function setAlert(){
-  alert("go drik some WATER")
+  alert("Go Drink Some Water 💧💧💧💧💧💧💧")
 }
 setAlert();
 var streak = 0;
